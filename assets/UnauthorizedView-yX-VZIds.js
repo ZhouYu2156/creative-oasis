@@ -1,0 +1,1 @@
+import{U as e}from"./UnauthorizedDialog-BetZPkCJ.js";import{a as o,A as a,o as r}from"./index-efaOxweq.js";const p=o({__name:"UnauthorizedView",setup(t){return(n,s)=>(r(),a(e))}});export{p as default};
