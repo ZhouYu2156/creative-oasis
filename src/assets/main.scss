@@ -1,0 +1,62 @@
+/* 引入tailwindcss */
+@use './tailwind.css';
+
+/* 引入字体 */
+@font-face {
+  font-style: normal;
+  font-family: 'FZHanZhenGuangBiao';
+  font-weight: 400;
+  src: url('./fonts/FZHanZhenGuangBiao.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'ZKKuaiLeTi';
+  src: url('./fonts/ZKKuaiLeTi.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-style: normal;
+  font-family: 'PingFangSC';
+  font-weight: 400;
+  src: url('./fonts/PingFangSC.woff2') format('woff2');
+  font-display: swap;
+}
+
+/* 全局样式 */
+html {
+  height: 100%;
+  font-family:
+    'PingFangSC',
+    'FZHanZhenGuangBiao',
+    'ZKKuaiLeTi',
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+html.dark {
+  background-color: #111827;
+  color-scheme: dark;
+}
+
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+#app {
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* 所有滚动条样式 */
+*::-webkit-scrollbar {
+  width: 3px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #234567;
+  border-radius: 3px;
+}
