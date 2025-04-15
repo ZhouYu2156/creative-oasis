@@ -5,9 +5,9 @@ import { ElMessage } from 'element-plus'
 import router from '@/router'
 
 const request = axios.create({
-  baseURL: 'http://192.168.21.4:8080/api/v1', // 设置后端服务地址为本机的局域网地址，当局域网其他终端设备访问时，他们的终端设备请求的后端地址才是正确的
+  //baseURL: 'http://192.168.21.4:8080/api/v1', // 设置后端服务地址为本机的局域网地址，当局域网其他终端设备访问时，他们的终端设备请求的后端地址才是正确的
   // baseURL: 'http://192.168.106.129:8080/api/v1',
-  // baseURL: 'https://www.zhouyu2156.cn:8080/api/v1',
+  baseURL: 'https://www.zhouyu2156.cn:8080/api/v1',
   timeout: 5000,
   headers: {
     'Content-Type': 'application/json',
