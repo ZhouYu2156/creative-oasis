@@ -1,1 +1,0 @@
-import{b4 as s}from"./index-efaOxweq.js";const o=async r=>s.post("/orders/orders/",r),t=async r=>s.post("/orders/orders/update_status/",r),d=async r=>s.get("/orders/orders/get_order/",{params:r}),a=async r=>s.get("/orders/orders/",{params:r}),c=async r=>s.delete(`/orders/orders/${r}/`);export{d as a,o as c,c as d,a as g,t as u};
